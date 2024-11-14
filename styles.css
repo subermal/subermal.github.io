@@ -1,0 +1,28 @@
+.color-example {
+    color: rgb(1, 1, 5);
+    background-color: #22b8da;
+    border: 2px solid rgb(17, 122, 119);
+}
+
+.header-example {
+    font-size: 30px; 
+    font-family:sans-serif; 
+    color: #1b9bd7;
+}
+.list-example {
+    list-style-type: square;
+    color: #18a6de; 
+}
+
+.text-example {
+    font-family: serif; 
+    font-size: 20px; 
+    text-transform: capitalize; 
+    text-decoration: underline; 
+}
+
+.div-example {
+    background-color: #30b7dc; 
+    border: 3px solid #2bcfde; 
+    padding: 10px; 
+}
