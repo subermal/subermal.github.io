@@ -1,28 +1,44 @@
-.color-example {
-    color: rgb(1, 1, 5);
-    background-color: #22b8da;
-    border: 2px solid rgb(17, 122, 119);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    padding: 20px;
 }
 
-.header-example {
-    font-size: 30px; 
-    font-family:sans-serif; 
-    color: #1b9bd7;
-}
-.list-example {
-    list-style-type: square;
-    color: #18a6de; 
-}
-
-.text-example {
-    font-family: serif; 
-    font-size: 20px; 
-    text-transform: capitalize; 
-    text-decoration: underline; 
+.page-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 19px;
+    color: #000000;
+    text-decoration: underline;
 }
 
-.div-example {
-    background-color: #30b7dc; 
-    border: 3px solid #2bcfde; 
-    padding: 10px; 
+header h1 {
+    color: #333;
+    border-bottom: 5px solid #52d0e9;
+    padding-bottom: 10px;
+}
+
+p {
+    background-color: #fff;
+    border: 5px solid #52d0e9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin-top: 20px;
+}
+
+figure {
+    margin-top: 30px;
+    background-color: #fdfdfd;
+    padding: 10px;
+    border: 2px solid #52d0e9;
+}
+
+progress {
+    width: 100%;
+    margin-top: 20px;
 }
