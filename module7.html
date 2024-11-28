@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+  .btn-danger {
+    background-color: #291c0e;
+    color: white; 
+    transition: background-color 0.3s ease; 
+    border: #291c0e;
+}
+  .jumbotron {
+    background-color: #9d7f61;
+    color: #000000;
+    padding: 100px 25px;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #000000;
+    font-size: 50px;
+  }
+  .logo {
+    color: #9d7f61;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #c1aea9;
+  }
+  .carousel-indicators li {
+    border-color: #6f4b41;
+  }
+  .carousel-indicators li.active {
+    background-color: #bd8978;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #291c0e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #8b6d64;
+    background-color: #9d7f61!important;
+    color: #8c5747;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #9d7f61 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #9d7f61;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #291c0e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #291c0e;
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">SG</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">CUSTOMER PROMISES</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>SalonGlow</h1> 
+  <p></p> 
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Book Now</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Us</h2>
+      <h4> We are your local hairsalon where we fully focus on our customers. We want to offer you memorable customer experience.</h4>      
+      <button class="btn btn-default btn-lg">Get in Touch</button>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-scissors logo"></span>
+    </div>
+  </div>
+</div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2>
+      <h4><strong>RESPONSIBILITY:</strong> Providing top-quality services tailored to individual needs.
+        Using premium products to ensure the best results while prioritizing safety and health.
+        Listening to client feedback and continuously striving to exceed expectations.</h4>      
+      <h4><strong>CUSTOMER FOCUS:</strong> Taking the time to understand each client's unique needs, preferences, and vision.
+        Offering personalized recommendations to ensure every service exceeds expectations.</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div class="container-fluid text-center">
+  <h2>CUSTOMER PROMISES</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-calendar logo-small"></span>
+      <h4>BOOKING</h4>
+      <p>Easy and clear instructions.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>We make you feel special.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>JOB DONE</h4>
+      <p>We guarantee you a stylish result.</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>GREEN</h4>
+      <p>We only use natural products.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-ok logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>Every employee is well educated.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo-small"></span>
+      <h4 style="color:#303030;">GLOBAL</h4>
+      <p>Salons all over the world.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <h4>What we have created</h4>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="agustin-fernandez-1Pmp9uxK8X8-unsplash.jpg" alt="cutting hair" width="400" height="300">
+        <p><strong>Fading</strong></p>
+        <p>Precision and artistry in every cut—bringing skill and style to my craft.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="dave-goudreau-nf-vDWn5kh0-unsplash.jpg" alt="shaping hair" width="400" height="300">
+        <p><strong>Cutting</strong></p>
+        <p>Crafting confidence, one cut at a time. Delivering sharp styles and a fresh look every session.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="lindsay-cash-Md_DhaFsnCQ-unsplash.jpg" alt="washing hair" width="400" height="300">
+        <p><strong>Coloring and Washing</strong></p>
+        <p>Relax, refresh, and revive—every great style starts with the perfect wash.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"This salon is the best. I am so happy with the result!"<br><span>Hanna Keskinen</span></h4>
+      </div>
+      <div class="item">
+        <h4>"One word... WOW!!"<br><span>William Shakespeare</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Could I... BE any more happy with this result?"<br><span>Sarah Fox</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Pricing</h2>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Kids</h1>
+        </div>
+        <div class="panel-footer">
+          <h3>$19</h3>
+          <h4>Haircut and wash</h4>
+          <button class="btn btn-lg">BOOK NOW</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Men</h1>
+        </div>
+        <div class="panel-footer">
+          <h3>$29</h3>
+          <h4>Haircut and wash</h4>
+          <button class="btn btn-lg">BOOK NOW</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Women</h1>
+        </div>
+        <div class="panel-footer">
+          <h3>$49</h3>
+          <h4>Package</h4>
+          <button class="btn btn-lg">BOOK NOW</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Espoo, Finland</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +358 45 1323 097</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> suber.mal@student.laurea.com</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="tile-merchant-ireland-4hWaTsyoNaM-unsplash.jpg" class="img-responsive" style="width:100%">
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Made By Suber Mal <a title="Visit SalonGlow">www.SalonGlow.com</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== ""){
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
