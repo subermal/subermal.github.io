@@ -1,0 +1,147 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e50b0b;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#header {
+    background-color: #d97b91;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#header h1 {
+    margin: 0;
+    color: #333;
+}
+
+#nav {
+    background-color: #e3dbdb;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+#nav ul li a:hover {
+    color: red;
+}
+
+.vertical-nav {
+    float: left;
+    width: 20%; 
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: auto; 
+    min-height: calc(100vh - 120px);
+    margin-top: 20px;
+}
+
+.vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vertical-nav ul li {
+    margin-bottom: 10px;
+}
+
+.vertical-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    display: block;
+    border-radius: 3px;
+}
+
+.vertical-nav ul li a:hover {
+    background-color: #d97b91;
+    color: white;
+}
+#section {
+    float: left;
+    width: 75%; 
+    padding: 20px;
+    margin-left: 5%;
+    background-color: #9fb0b8;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    min-height: calc(100vh - 120px);
+
+}
+
+#section p {
+    background-color: #ffffff;
+    border: 3px solid #52d0e9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #52d0e9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+footer {
+    clear: both; 
+    position: relative; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 8, 223);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
